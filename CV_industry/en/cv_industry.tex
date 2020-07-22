@@ -1,0 +1,267 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Bruno} % Your first name
+\familyname{Ximenez R. Alves} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{28 Rue Godefroy-Cavaignac}{Paris 75011 - France}
+\mobile{+33 75 149 8033}
+\email{bruno.ximenez@obspm.fr}
+\extrainfo{Birth date: 12/10/1988, Nationality: Brazilian}
+
+% \photo[70pt][0.4pt]{pic2.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\vspace{-0.5cm}
+
+\makecvtitle % Print the CV title
+
+\vspace{-0.5cm}
+%----------------------------------------------------------------------------------------
+%   RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research/work experience}
+
+\cventry{June/2018--present}{Post--doc at SYRTE: Strontium optical lattice clocks}{}{France}{}{
+%\newline
+%\newline
+The research project on metrology of time and frequency, focused on improving the accuracy and the frequency stability of the $^{87}$Sr optical clocks at SYRTE using quantum spin squeezing techniques.
+% During my stay, I participated in the international optical clocks comparison campaign together with Physikalisch-Technische Bundesanstalt (PTB), National Physical Laboratory (NPL) and National Institute of Information and Communications Technology (NICT), and contributed to the first real time steering of the International Atomic Time (TAI), demonstrating the capability of optical clocks as calibrated references for time scales.
+% The accuracy of the clock is constantly being improved, and in particular, we have been working on the evaluation of the effect of collisions between hot background gas atoms and cold clock atoms, and higher order corrections on the lattice light shift. There are currently two articles being written on background gas collision shift and the light shift correction.
+% The frequency stability of the clock is also under ongoing improvement by developing an implementation of a non-destructive detection of the clock atoms. The idea is to minimize the Dick effect and possibly produce spin squeeze states, enabling clock stabilities beyong the quantum projection noise.
+%\newline
+%\newline
+}
+
+\cventry{2015--2018}{PhD: \textit{Laser spectrocopy of antihydrogen and fundamental symmetries}}{}{CERN/Aarhus University--Denmark}{}{
+%\newline
+%\newline
+    I did my PhD at the ALPHA collaboration at CERN. During this period we measured, for the first time ever observed, the absolute frequency of the 1S-2S transition on antihydrogen atoms using laser spectroscopy and modern time and frequency metrology techniques. 
+% The thesis reports on the measurement of the resonance frequency of the 1S–2S transition in magnetically trapped antihydrogen, focusing on the ultraviolet laser setup used to drive the transition and the spectroscopy results. In addition, the procedure to produce trapped antihydrogen in ultra high vacuum (UHV) and cryogenic environment is described, including recent techniques developed to drastically improve the trapping efficiency. We performed the first proof of principle measurement of the resonance frequency in 2016 with a relative precision of 2 parts in $10^{10}$. In 2017 we reported the measurement of the line shape of this transition yielding a measurement of the resonance frequency with a relative precision of 2 parts in $10^{12}$, an improvement of two orders of magnitude. The results achieved enable a comparison with the same measurement in the hydrogen atom, currently known with a relative precision of a few parts in $10^{15}$. The comparison agrees very well with the charge--parity-time reversal (CPT) symmetry, addressing the baryon asymmetry -- a major open problem in modern physics nowadays. 
+%\newline
+%\newline 
+}
+
+\cventry{2013--2015}{Masters at UFRJ}{\textsc{Rio de Janeiro}}{Brazil}{}{
+%\newline
+%\newline
+    Masters in laser spectroscopy of Lithium atoms and molecules (Li$_{2}$, CaH) in cryogenic environment. 
+%\newline
+%\newline
+}
+
+%------------------------------------------------
+
+\cventry{2013}{Summer Student}{\textsc{CERN}}{Switzerland}{}{
+    Internship at CERN working at the ALPHA collaboration at the Antiproton decelerator: development of electronics integrating the FPGA pressure control system of the cryostat. 
+}
+%\newline{}\newline{}
+
+\cventry{2008}{Elevadores Ideal (Elevator company)}{Rio de Janeiro}{Brazil}{}{
+    Company dedicated to elevators in residencial and commercial buildings. I was responsible for the Modernization department, in charge of replacing old electric relay-based elevator boards by modern electronic technology based on microcontrollers and frequency inverters.
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Other degrees and relevant training}
+
+\cventry{2017}{Frequency combs training}{Menlo Systems}{Germany}{}{}
+\cventry{2008--2012}{Bachelor in Physics}{Universidade Federal do Rio de Janeiro}{UFRJ}{\textit{Brazil}}{}
+\cventry{2005--2007}{Technician degree in electronics}{Centro Federal de Educação Tecnológica Celso Suckow da Fonseca}{CEFET/RJ}{\textit{Brazil}}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%------------------------------------------------
+
+% \section{Participation in events and trainings}
+
+% \cventry{2020}{Non-destructive detection in $^{87}$Sr optical lattice clocks}{Early career in trapped ions, oral presentation}{}{Switzerland, CERN}{}
+% \cventry{2019}{Non-destructive detection of lattice-trapped $^{87}$Sr atoms}{ACES workshop 2019, oral presentation}{}{France}{}
+% \cventry{2019}{Frequency shift due to background gas collision in strontium clock}{IFCS--EFTF 2019, oral presentation}{}{USA}{}
+% \cventry{2018}{Winter school on physics with trapped charged particles}{Ecole des physique des Houches}{France}{}{}
+% \cventry{2017}{Conference: PSAS - Precision Physics and Fundamental Physical Constants (FFK-2017)}{Warsaw university}{Poland}{}{}
+% \cventry{2016}{Frequency comb user seminar}{Menlo Systems}{Germany}{}{}
+% \cventry{2014}{Conference: PSAS - Precision Physics of Simple Atomic Systems}{Centro Brasileiro de Pesquisas Fisicas}{Brazil}{}{}
+% \cventry{2012}{X Workshop in molecular physics and spectrocopy, Poster presentation.}{Universidade Federal de Pernambuco}{Brazil}{}{}
+
+% %----------------------------------------------------------------------------------------
+% %   LANGUAGES SECTION
+% %----------------------------------------------------------------------------------------
+
+% \section{Languages}
+
+% \cvitemwithcomment{Portuguese-Brazil}{Mothertongue}{}
+% \cvitemwithcomment{English}{Fluent}{}
+% \cvitemwithcomment{Spanish}{Intermediare -- B1/B2}{}
+% \cvitemwithcomment{French}{Intermediare -- B1/B2}{}
+
+% \section{A few hobbies}
+
+% \cventry{Music}{Passionate about music. I dedicate to acoustic and bass guitar since I was 14 years old. I have basic skills on drums.}{}{}{}{}
+% \cventry{Languages}{One of the reasons why I came abroad. Learning languages has been a constant dedication ever since together with full immersion in the cultures of the countries I have lived and visited.}{}{}{}{}
+
+\noindent%
+\begin{minipage}{0.5\textwidth}
+    \section{Software skills}
+
+    \cvitem{Data analysis}{Python, Cpp, Mathematica.}
+    \cvitem{Mechanical designs}{Solid Works, Inventor.}
+    \cvitem{Hardware control}{\textsc{LabView}, Arduino.}
+    \cvitem{Electronics design}{PCBExpress, Altium.}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    \section{Languages}
+    \cvitemwithcomment{Portuguese}{Mothertongue}{}
+    \cvitemwithcomment{English}{Fluent}{}
+    \cvitemwithcomment{Spanish}{Intermediare -- B1/B2}{}
+    \cvitemwithcomment{French}{Intermediare -- B1/B2}{}
+    \section{A few hobbies}
+    Music (bass and acoustic guitar), languages, cooking, gardening, football, cycling.
+% \cventry{Music}{Passionate about music. I dedicate to acoustic and bass guitar since I was 14 years old. I have basic skills on drums.}{}{}{}{}
+% \cventry{Languages}{One of the reasons why I came abroad. Learning languages has been a constant dedication ever since together with full immersion in the cultures of the countries I have lived and visited.}{}{}{}{}
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\cvitem{2012}{X Workshop in molecular physics and spectrocopy, Poster presentation -- Best presentation.}
+%\cvitem{2012}{JIC -- Best oral presentation}
+
+\pagebreak
+\section{Published Articles}
+
+\cvitem{2020}{
+    Ahmadi, M., \textbf{Alves, B.X.R.}, Baker, C.J. et al. Investigation of the fine structure of antihydrogen. \textbf{Nature 578, 375–380 (2020).}
+}
+
+\cvitem{2018}{
+Ahmadi, M., \textbf{Alves, B.X.R.}, Baker, C.J. et al.
+"Observation of the 1S--2P Lyman-$\alpha$ transition in antihydrogen". 
+\textbf{Nature, vol. 561 (2018) }}
+
+\cvitem{2018}{
+Ahmadi, M., \textbf{Alves, B.X.R.}, Baker, C.J. et al.
+"Characterization of the 1S--2S transition in antihydrogen". 
+\textbf{Nature, vol. 557 (2018) }}
+
+\cvitem{2018}{
+Ahmadi, M., \textbf{Alves, B.X.R.}, Baker, C.J. et al.
+"Enhanced Control and Reproducibility of Non-Neutral Plasmas". 
+\textbf{Physical Review Letters 120, (2018) }}
+
+
+
+\cvitem{2017}{
+Ahmadi, M., \textbf{Alves, B.X.R.}, Baker, C.J. et al.
+"Antihydrogen accumulation for fundamental symmetry tests". 
+\textbf{Nature Communications, vol. 8 (2017) }}
+
+\cvitem{2017}{
+Ahmadi, M., \textbf{Alves, B.X.R.}, Baker, C.J. et al.
+"Observation of the hyperfine spectrum of antihydrogen". 
+\textbf{Nature, vol. 548 (2017) }
+}
+
+\cvitem{2016}{
+Ahmadi, M., \textbf{Alves, B.X.R.}, Baker, C.J. et al. 
+"Observation of the 1S–2S transition in trapped antihydrogen". 
+\textbf{Nature, vol. 541 (2016) }}
+
+\cvitem{2015}{Sacramento R, Oliveira A,  \textbf{Alves B}, Silva B, Li M, Wolff W, Cesar C. 
+"Matrix isolation sublimation: An apparatus for producing cryogenic beams of atoms and molecules".
+ \textbf{Review of Scientific Instruments, vol. 86 (2015)}}
+
+\cvitem{2014}{Oliveira A, Sacramento R, \textbf{Alves B}, Silva B, Wolff W, Cesar C.
+"Slow ground state molecules from matrix isolation sublimation". 
+ \textbf{Journal of Physics B: Atomic, Molecular and Optical Physics, vol. 47 (2014) p. 245302}}
+
+
+\cvitem{2012}{ Sacramento R , \textbf{ Alves B}, Almeida D, Wolff W, Li M, Cesar C.
+"Source of slow lithium atoms from Ne or H 2 matrix isolation sublimation" 
+\textbf{Journal of Chemical Physics, vol. 136 (2012)}}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
