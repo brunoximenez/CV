@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1595772667 "cv_industry.tex" "cv_industry.pdf" "cv_industry" 1595772669
-  "/dev/null" 1595772668 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1595863723 "cv_industry.tex" "cv_industry.pdf" "cv_industry" 1595863724
+  "/dev/null" 1595863723 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -133,15 +133,15 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1578833892 4737576 0b9161c47eeff8e8eef62e5b9ddf7607 ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1578833928 4294522 b90f7a7ba3aa2e5774d27d874c585920 ""
   "/usr/local/texlive/2019/texmf.cnf" 1578833879 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "cv_industry.aux" 1595772669 1299 d99ee931a776553c37bc2bf90fbd1540 "pdflatex"
-  "cv_industry.out" 1595772669 953 826215a08e2d5824385c00c6917addb2 "pdflatex"
-  "cv_industry.tex" 1595772667 14419 8f2285e0b9b4e37a45aeb2f987fe3c36 ""
+  "cv_industry.aux" 1595863724 1299 2597a4f25cd72fe46e1bdf7f6a2091ef "pdflatex"
+  "cv_industry.out" 1595863724 953 afdd6e019932f585e69a8f6aaf1c9e39 "pdflatex"
+  "cv_industry.tex" 1595863722 14409 301706bca004e8753dca878054874551 ""
   "moderncv.cls" 1595407496 17250 1fbc41cafb909395628b327a8abf20da ""
   "moderncvcolorgreen.sty" 1595407496 1008 016fcc4ccaa54998dbea166db551b6fb ""
   "moderncvcompatibility.sty" 1595407496 3398 356ff0626d1912510390575078c99133 ""
   "moderncvstyleclassic.sty" 1595407496 13048 4235a916006e8e1c75070276eb61ef72 ""
   (generated)
-  "cv_industry.pdf"
   "cv_industry.out"
   "cv_industry.aux"
   "cv_industry.log"
+  "cv_industry.pdf"
